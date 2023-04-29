@@ -1,0 +1,675 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+/* header start */
+header{
+width: 100%;
+height: 80px;
+}
+header .container{
+width: 102.5%;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+background-color:black;
+position: relative;
+right: 35px;
+}
+header ul{
+display: flex;
+}
+header ul li{
+margin-left: 40px;
+}
+header ul a{
+color:white;
+font-size: 13px;
+font-family:sans-serif;
+position: relative;
+right: 20px;
+}
+header ul li a:hover{
+color: blue;
+transition:1.5s;
+}
+header img{
+width:30px;
+height: 20px;
+background-image: url(../../picture/france-flag-wave-xl.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+bottom: 40px;
+left: 20px;
+}
+header .img ul{
+display: flex;
+}
+header .img ul li{
+margin-bottom:20px;
+font-size:13px;
+color: white;
+position: relative;
+bottom: 62.5px;
+left:20px;
+}
+header .img ul i{
+color: white;
+font-size: 10px;
+position: relative;
+bottom: 59px;
+left:110px;
+}
+/* header end */
+
+/* secion start */
+.section{
+width: 100%;
+height: 80px;
+}
+.section .left{
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+position: relative;
+bottom: 20px;
+}
+.section .left h1{
+font-size: 35px;
+font-weight: 600;
+position: relative;
+left: 25px;
+}
+.section .left ul{
+display: flex;
+}
+.section .left ul li{
+margin-left: 45px;
+font-size:12px;
+font-weight:600;
+font-family: sans-serif;
+position: relative;
+right: 580px;
+}
+.section .icon button{
+font-size: 9px;
+width: 28px;
+height: 18px;
+border-radius: 15px;
+background-color: red;
+color: white;
+position: relative;
+left: 523px;
+bottom: 105px;
+}
+.section .right button{
+background-color: white;
+font-size: 10px;
+width: 115px;
+height: 30px;
+border-radius: 25px;
+position: relative;
+left: 853px;
+bottom: 75px;
+}
+.section .right i{
+font-size: 11px;
+position: relative;
+left: 818px;
+bottom: 75px;
+}
+.section .icon-1 button{
+font-size: 8px;
+width: 15px;
+height: 15px;
+border-radius:10px;
+background-color: blue;
+color:white;
+position: relative;
+left: 1014px;
+bottom: 128px;
+}
+.section .icon-1 i{
+font-size: 15px;
+border: 20px;
+position: relative;
+left: 980px;
+bottom: 120px;
+}
+.section .icon-2 i{
+font-size: 15px;
+position: relative;
+left:1035px;
+bottom: 140px;
+}
+.section .icon-2 button{
+font-size: 8px;
+width: 15px;
+height: 15px;
+border-radius:10px;
+background-color: blue;
+color:white;
+position: relative;
+left: 1070px;
+bottom: 147px;
+}
+.section .icon-3 button{
+font-size: 15px;
+width:170px;
+height: 35px;
+border-radius: 20px;
+background-color: blue;
+color: white;
+position: relative;
+left: 1099px ;
+bottom:165px ;
+}
+/* secion end */
+
+/* photo start */
+.photo{
+ width: 100%;
+ height: 700px; 
+}
+.photo img{
+ width: 100%;
+height: 600px;
+background-image: url(../../photos/maxresdefault.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.photo .word h1{
+font-size: 50px;
+font-weight: 600;
+color: blue;
+position: relative;
+left: 850px;
+bottom: 510px;
+}
+.photo .word p{
+font-size: 90px;
+font-weight: 600;
+color: red;
+position: relative;
+left: 840px;
+bottom: 500px;
+}
+.photo .icon-4{
+font-size: 20px;
+font-weight: 600;
+color: gray;
+position: relative;
+left: 845px;
+bottom:500px;
+}
+.photo .button button{
+font-size: 15px;
+font-weight: 600;
+width: 150px;
+height: 35px;
+border-radius: 25px;
+background-color: blue;
+color: white;
+position: relative;
+left: 840px;
+bottom: 450px;
+}
+/* photo end */
+
+/* picture start */
+.picture{
+width: 100%;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.picture h2{
+font-size: 40px;
+font-weight: 700;
+}
+/* picture end */
+
+/* clothe start */
+.clothe{
+width: 100%;
+height: 350px;
+}
+.clothe .img{
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-between;
+}
+.clothe img{
+width: 31%;
+height: 250px;
+margin: auto;
+}
+.clothe .button-1 h1{
+font-size: 40px;
+font-weight: 600;
+color :red;
+position: relative;
+left: 230px;
+bottom: 200px;
+}
+.clothe .button-1 button{
+font-size: 18px;
+font-weight: 600;
+width: 160px;
+height: 45px;
+border-radius: 25px;
+background-color: yellow;
+color: black;
+position: relative;
+left: 220px;
+bottom: 190px;
+}
+.clothe .button-1 h2{
+font-size: 25px;
+font-weight: 600;
+color: blue;
+position: relative;
+left: 230px;
+bottom: 180px;
+}
+.clothe .button-2 h3{
+font-size: 24px;
+font-weight: 600;
+color: red;
+position: relative;
+left: 720px;
+bottom: 330px;
+}
+.clothe .button-2 p{
+font-size: 33px;
+font-weight: 600;
+position: relative;
+color: brown;
+left: 690px;
+bottom:323px;
+}
+.clothe .button-2 h4{
+font-size:25px;
+font-weight: 600;
+color: blue;
+position: relative;
+left: 700px;
+bottom:310px;
+}
+.clothe .button-3 h5{
+font-size: 30px;
+font-weight: 600;
+color: red;
+position: relative;
+left: 1140px;
+bottom: 410px;
+}
+.clothe .button-3 button{
+font-size: 18px;
+font-weight: 600;
+width: 160px;
+height: 45px;
+border-radius: 25px;
+background-color: yellow;
+color: black;
+position: relative;
+left: 1135px;
+bottom: 395px;
+}
+.clothe .button-3 h6{
+font-size: 25px;
+font-weight: 600;
+color: blue;
+position: relative;
+left: 1140px;
+bottom: 385px;
+}
+/* clothe end */
+
+/* summer start */
+.summer{
+width: 100%;
+height: 200px;
+}
+.summer .sun{
+width: 100%;
+height: 75px;
+}
+.summer .sun h1{
+font-size: 50px;
+font-weight: 800;
+position: relative;
+left: 85px;
+}
+.summer .sun ul{
+display: flex;
+}
+.summer .sun ul li{
+margin-left: 45px;
+font-size:20px;
+font-weight:600;
+font-family: sans-serif;
+position: relative;
+left: 750px;
+bottom: 30px;
+}
+.summer .sun ul li a:hover{
+color:rgb(77, 110, 60);
+transition: 1s;
+}
+hr{
+width: 1200px;
+margin-bottom:60px;
+position: relative;
+left: 70px;
+}
+/* summer end */
+
+/* boss start */
+.boss{
+width: 100%;
+height: 1000px;
+}
+.boss .manager{
+width: 98%;
+height: 1000px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.boss .manager .item{
+width: 30%;
+height: 480px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.boss .manager .item .ico{
+margin: 10px 0;
+}
+.boss .manager .item img{
+width: 97%;
+height: 330px;
+}
+.boss .manager .item  p{
+font-size: 25px;
+font-weight: 600;
+margin: 10px;
+color: blue;
+position: relative;
+right: 40px;
+}
+.boss .manager .item h1{
+font-size: 25px;
+font-weight: 600;
+color: red;
+position: relative;
+left: 45px;
+bottom: 38px;
+}
+.boss .manager .item button{
+font-size: 14px;
+font-weight: 600;
+width: 60px;
+height:20px;
+border-radius: 25px;
+background-color: red;
+color: white;
+position: relative;
+bottom: 470px;
+right: 140px;
+}
+.boss .manager .button button{
+font-size: 14px;
+font-weight: 600;
+width: 60px;
+height:20px;
+border-radius: 25px;
+background-color: red;
+color: white;
+position: relative;
+bottom: 470px;
+left: -110px;
+}
+/* boss end */
+
+/* boy start */
+.boy{
+width: 100%;
+height: 950px;
+}
+.boy img{
+width: 98%;
+height: 750px;
+/* margin-top: 10px;  */
+background-image: url(../../movies/what-types-of-clothes-you-can-wear-in-malaysia-i-behtahanlah.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+left: 13px;
+}
+.boy p{
+font-size: 55px;
+font-weight:700;
+position: relative;
+left: 620px;
+bottom: 500px;
+}
+.boy h3{
+font-size: 25px;
+font-weight:500;
+color:rgba(42, 40, 40, 0.599);
+position: relative;
+left:620px;
+bottom: 480px;
+}
+.boy button{
+font-size: 18px;
+font-weight: 550;
+width: 200px;
+height: 45px;
+border-radius: 25px;
+background-color:black;
+color: white;
+position: relative;
+left: 620px;
+bottom: 420px;
+}
+/* boy end */
+
+/* men start */
+.men{    
+width: 100%;
+height: 600px;
+}
+.men img{
+width: 98%;
+height: 750px;
+margin-top: 20px;
+background-image: url(../../model/1614528109_159-p-muzhchina-na-belom-fone-188.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+left: 10px;
+}
+.men p{
+font-size: 55px;
+font-weight:700;
+position: relative;
+left: 90px;
+bottom: 590px;
+}
+.men h4{
+font-size: 30px;
+font-weight:400;
+color: rgba(0, 0, 0, 0.591);
+position: relative;
+left: 90px;
+bottom: 560px;
+}
+.men button{
+font-size: 18px;
+font-weight: 550;
+width: 200px;
+height: 45px;
+border-radius: 25px;
+background-color:blue;
+color: white;
+position: relative;
+left: 90px;
+bottom: 500px;
+}
+.jeans{
+width: 35%;
+height: 160px;
+}
+.jeans img{
+width: 40%;
+height: 180px;
+border-radius: 20px;
+position: relative;
+left: 90px;
+bottom: 80px;
+}
+.container{
+width: 60%;
+height: 200px;
+}
+.container img{
+width: 20%;
+height: 140px;
+border-radius: 20px;
+position: relative;
+left: 1150px;
+bottom: 740px;
+}
+.container p{
+font-size:20px;
+font-weight:600;
+position: relative;
+left: 1000px;
+bottom: 840px;
+}
+.container button{
+font-size: 17px;
+font-weight: 500;
+width: 160px;
+height: 95px;
+border-radius: 25px;
+background-color:blue;
+color: white;
+position: relative;
+left: 825px;
+bottom:835px;
+}
+/* men end */
+
+/* foot start */
+.foot{
+width: 98%;
+height: 400px;
+border-radius: 20px;
+background-color: rgb(182, 235, 240);
+margin: auto;
+}
+.foot p{
+font-size: 55px;
+font-weight: 600;
+position: relative;
+top:140px;
+left: 170px;
+}
+.foot button{
+font-size: 16px;
+font-weight: 500;
+width: 300px;
+height: 50px;
+border-radius: 25px;
+background-color:white;
+color: rgba(0, 0, 0, 0.705);
+position: relative;
+left: 650px;
+top: 60px;
+}
+.foot h6{
+font-size: 25px;
+font-weight: 400;
+position: relative;
+top: 110px;
+left: 170px;
+color: rgba(0, 0, 0, 0.76);
+}
+.buton button{
+font-size: 16px;
+font-weight: 500;
+width: 200px;
+height: 50px;
+border-radius: 25px;
+background-color:blue;
+color: white;
+position: relative;
+left: 915px;
+bottom: 214px;
+}
+/* foot end */
+
+/* iconca start */
+.iconca{
+width: 98%;
+height: 300px;
+display: flex;
+margin: auto;
+justify-content: center;
+}
+.iconca .item{
+width: 93%;
+height: 250px;
+margin: auto;
+}
+.iconca .item .fa{
+font-size: 47px;
+font-weight: 400;
+color:rgb(46, 26, 19) ;
+position: relative;
+left: 75px;
+}
+.iconca .item h2{
+font-size: 28px;
+font-weight: 800;
+color: rgba(0, 0, 0, 0.801);
+position: relative;
+left: 75px;
+}
+.iconca .item p{
+font-size: 20px;
+color: grey;
+position: relative;
+left: 75px;
+}
+/* iconca end */
+
+/* ball start */
+.ball {
+/* width: 98%;
+height: 300px;
+background-color:red;
+margin: auto; */
+
+}
+/* ball end */

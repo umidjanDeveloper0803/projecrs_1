@@ -1,0 +1,91 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+
+}
+
+ body{
+font-size:25px;
+color:red;
+text-transform: uppercase;
+ }
+span{
+color:black;
+}
+h1,h4,p,span{
+color:red;
+font-family:sans-serif;
+font-weight:900;
+font-size :50px;
+
+}
+
+ul{
+width:1000px;
+height:600px;
+border:5px solid red;
+text-align: center;
+margin: auto;
+margin-left:20px;
+display: flex;
+justify-content: center;
+padding-top:100px;
+}
+
+ul.li{
+width:100px;
+height:100px;
+background-color: blue;
+margin:10px;
+border:10px solid blueviolet;
+}
+
+#btn{
+box-sizing: border-box;
+}
+
+p{
+margin: 5px 0 10px 0;
+font-size:18px;
+font-family:sans-serif;
+font-weight: 700;
+border-width: 10px;
+border-style: solid;
+border-color: rgb(63, 139, 57, 0.727);
+
+border:5px double red;
+border-top: 6px outset black;
+border-right: 6px dashed lightcoral;
+border-bottom:10px dotted yellow;
+border-left:8px double blue;
+
+}
+
+id-1
+class-2
+teg-3
+
+.btn{
+ border:5px double rgb rgba(50, 162, 16, 0.744)
+}
+#paragrph{
+    border:5px double red
+
+}
+.btn1{
+border:5px double rgb(207, 54, 54, 0.623)
+}
+.class{
+    border:5px double rgb(20, 176, 20)
+}
+p{
+    border:5px double rgba(175, 16, 95, 0.477)
+}
+.row{
+    background-color:aqua;
+}
+
+

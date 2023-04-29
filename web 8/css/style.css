@@ -1,0 +1,63 @@
+*{
+margin:0;
+padding:0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+.container{
+width: 1200px;
+height: 700px;
+border: 5px solid blue;
+margin: auto;
+display: flex;
+/* x - o'qi bo'yicha */
+justify-content:center;
+/* o'rtaga suradi */
+justify-content: start;
+/* boshiga */
+justify-content: end;
+/* ohiriga */
+justify-content: space-between;
+/* ikki tarafga taqab sochadi */
+justify-content: space-around;
+/* ikkichekada ma'lum bir joy qoldiradi va qolganini
+sochadi */
+justify-content: space-evenly;
+/* barcha contentlarni teng masofaga sochadi */
+flex-direction: column;
+/* y - o'qiga burib beradi */
+/* align-items: center; */
+/*  y - o'qi bo'yicha o'rtaga olib keladi */
+/* justify-content: center; */
+flex-direction: row;
+/* teskari sanoq */
+flex-wrap: wrap;
+/* sig'magan contentni pastga tushiirib yuboradi */
+overflow: scroll;
+/* scrol hosil qilib beradi matn bitta contant
+ichiga joylashadi */
+/* overflow: hidden; */
+/* razmerga mos matnni oladi qolganinikesib 
+tashlaydi */
+}
+.container .item{
+width: 100px;
+height: 100px;
+background-color: aqua;
+border: 2px solid red;
+/* opacity:4; */
+/* opacity:; 0 qiymatda yo'qoladi
+ 1 qiymatda paydo bo'ladi */
+ transition: 2.5s;
+ /* vaqt */
+}
+ .container .item:hover{
+ width: 100px;
+ height: 100px;
+ background-color:red;
+ border: none;
+ box-shadow: 0 0 30px black;
+ opacity: 0;
+ border-radius: 100%;
+} 
